@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+.title{
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(to bottom , #f2de9b,#d1ac2e);
+    direction: rtl;
+}
+
+.title span{
+    font-size: 30px;
+    margin: 19px;
+}
+
+#addWarpper{
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+    background: silver;
+    height: 30px;
+    width: 30px;
+}
+#addWarpper #addTask{
+    border: 1px solid;
+    border-radius: 40px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 4px;
+    font-weight: bold;
+}
+
+#newTask{
+    display: none;
+    direction: rtl;
+    width: 300px;
+}
+#taskTable{
+    height: auto;
+    width: 300px;
+    margin: auto;
+}
+
+#taskTable li{
+    border-top: 1px solid;
+    list-style-type: none;
+    margin-right: -40px;
+}
+li.completed label {
+    color: #a9a9a9;
+    text-decoration: line-through;
+}
+#taskHolder{
+    direction: rtl;
+}
+
+#removeTask{
+    float: left;
+    margin-left:5px;
+}
